@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "18c018cc6243e63c6852c7bf3c03f05b",
+    "content-hash": "8c83e6bec97bab8bf562cfaa05aecea5",
     "packages": [
         {
             "name": "amazeeio/drupal_integrations",
@@ -1633,6 +1633,16 @@
                 "source": "https://github.com/drupal/core-recommended/tree/10.0.0-alpha3"
             },
             "time": "2022-04-13T21:43:34+00:00"
+        },
+        {
+            "name": "drupal/lagoon_logs",
+            "version": "2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/issue/lagoon_logs-3276367.git",
+                "reference": "3276367-drupal10"
+            },
+            "type": "drupal-module"
         },
         {
             "name": "drush/drush",
@@ -9923,7 +9933,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/lagoon_logs": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
