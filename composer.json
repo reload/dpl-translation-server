@@ -12,17 +12,8 @@
     ],
     "repositories": [
         {
-            "type": "package",
-            "package": {
-                "name": "drupal/lagoon_logs",
-                "version": "2.x-dev",
-                "type":"drupal-module",
-                "source": {
-                    "url": "https://git.drupalcode.org/issue/lagoon_logs-3276367.git",
-                    "type": "git",
-                    "reference": "3276367-drupal10"
-                }
-            }
+            "type": "vcs",
+            "url": "https://git.drupalcode.org/issue/lagoon_logs-3276367.git"
         },
         {
             "type": "composer",
@@ -36,7 +27,7 @@
         "drupal/core-composer-scaffold": "10.0.0-alpha3",
         "drupal/core-project-message": "10.0.0-alpha3",
         "drupal/core-recommended": "10.0.0-alpha3",
-        "drupal/lagoon_logs": "2.x-dev",
+        "drupal/lagoon_logs": "3276367-drupal10-dev",
         "drush/drush": "11.0.9",
         "zaporylie/composer-drupal-optimizations": "1.2.0"
     },
