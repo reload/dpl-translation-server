@@ -1554,7 +1554,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/issue/lagoon_logs-3276367.git",
-                "reference": "527f06d20576fbbdf7f94473d0456272b6683c78"
+                "reference": "03b5f2a4edd24bbb9854ba9206a3d65e579952f7"
             },
             "require": {
                 "monolog/monolog": "^2.3"
@@ -1571,7 +1571,7 @@
                 }
             ],
             "description": "Simple monolog wrapper for Lagoon",
-            "time": "2022-04-21T04:01:16+00:00"
+            "time": "2022-09-08T01:50:16+00:00"
         },
         {
             "name": "drush/drush",
