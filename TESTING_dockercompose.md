@@ -1,4 +1,4 @@
-Docker Compose Drupal 10 base - php8.1, nginx, mariadb
+Docker Compose Drupal 10 base - php8.2, nginx, mariadb
 ======================================================
 
 This is a docker-compose version of the Lando example tests:
