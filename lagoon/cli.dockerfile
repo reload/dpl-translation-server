@@ -1,4 +1,4 @@
-FROM uselagoon/php-8.1-cli-drupal:latest
+FROM testlagoon/php-8.2-cli-drupal:main
 
 COPY composer.* /app/
 COPY assets /app/assets
